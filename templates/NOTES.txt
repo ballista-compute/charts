@@ -1,3 +1,0 @@
-{{- if contains "ClusterIP" .Values.service.type }}
-  kubectl port-forward --namespace {{ .Release.Namespace }} service/ballista {{ .Values.service.port }}:{{ .Values.service.port }}
-{{- end }}

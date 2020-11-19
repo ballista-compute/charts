@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ballista:
+  - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2020-11-19T18:23:00.228212-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 50122206334529ded19deaa830e2105534d5fb323cb397ffae2238c2a1aabde2
+    name: ballista
+    type: application
+    urls:
+    - ballista-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-11-19T18:23:00.224264-05:00"
